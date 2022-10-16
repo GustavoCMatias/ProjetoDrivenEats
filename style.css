@@ -29,6 +29,8 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
+
+  z-index: 1;
 }
 
 .cabecalho h1 {
@@ -142,7 +144,10 @@ body {
   height: 61px;
   width: 364px;
   border-radius: 50px;
-  background-color: #CBCBCB;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rodape p {
@@ -151,11 +156,14 @@ body {
   line-height: 23px;
   text-align: center;
 
-  margin-top: 8px;
   color: #FFFFFF;
 
 }
 
 .rodape-green-bg {
   background-color: #32B72F;
+}
+
+.text-rodape {
+  background-color: #CBCBCB;
 }
