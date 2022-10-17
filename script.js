@@ -32,7 +32,7 @@ function escolher(grupo, item) {
     }
 
     if (preco_prato && preco_bebida && preco_sobremesa) {
-        const novoele = document.querySelector(".text-rodape");
+        const novoele = document.querySelector(".botao-pedido");
         novoele.classList.remove("text-rodape");
         novoele.classList.add("rodape-green-bg")
 
